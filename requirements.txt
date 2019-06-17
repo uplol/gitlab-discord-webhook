@@ -13,9 +13,9 @@ idna==2.6
 itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
-requests==2.18.4
+requests==2.20.0
 six==1.11.0
 toml==0.10.0
-urllib3==1.22
+urllib3==1.24.2
 websocket-client==0.44.0
 Werkzeug==0.15.4

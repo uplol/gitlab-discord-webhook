@@ -12,7 +12,7 @@ Not all webhook events sent by Gitlab are supported yet. Here's the list of ones
 ## Setup
 You need to set some environemnt variables before running the app.
 
-`DISCORD_WEBHOOK_URL` - The Webhook URL provided by the Discord client
-`WEBHOOK_SECRET` - A predefined secret to append to your GitLab webhook URLs
+- `DISCORD_WEBHOOK_URL` - The Webhook URL provided by the Discord client
+- `WEBHOOK_SECRET` - A predefined secret to append to your GitLab webhook URLs
 
 Once set, you can run the `app.py` in the main directory, or run it with the `flask run` utility.

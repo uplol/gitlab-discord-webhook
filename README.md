@@ -9,6 +9,9 @@ Not all webhook events sent by Gitlab are supported yet. Here's the list of ones
 - Push Events
 - Pipeline Events
 
+## Screenshots
+![image](https://i.imgur.com/RmlGI5W.png)
+
 ## Setup
 You need to set some environemnt variables before running the app.
 

@@ -30,7 +30,7 @@ def webhook():
         embed = webhook_push(data)
     if event_type == "Pipeline Hook":
         data = request.get_json()
-        if data["object_attributes"]["status"] in ["success", "failed"]:
+        if data["object_attributes"]["status"] in ["success", "failed", "manual"]:
             embed = webhook_pipeline(data)
 
     if embed:

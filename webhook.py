@@ -6,6 +6,7 @@ from disco.types.webhook import Webhook
 COLOR_BLUE = 4359924
 COLOR_RED = 16711680
 COLOR_GREEN = 58631
+COLOR_ORANGE = 16757504
 
 
 def build_embed():
@@ -55,6 +56,8 @@ def webhook_pipeline(data):
         embed.color = COLOR_RED
     elif status == "success":
         embed.color = COLOR_GREEN
+    elif status == "manual":
+        embed.color = COLOR_ORANGE
 
     duration = str(timedelta(seconds=data["object_attributes"]["duration"]))
 
